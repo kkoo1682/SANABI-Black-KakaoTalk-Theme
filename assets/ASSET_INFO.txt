@@ -1,0 +1,18 @@
+SANABI asset dimensions (files are not cropped by this package):
+10661_2x.png: 3072x2680 RGBA
+10656_2x.png: 2148x3072 RGBA
+tab_02.png: 3072x2566 RGBA
+profile_02.png: 1546x3072 RGBA
+tab_04.png: 2148x3072 RGBA
+profile_03.png: 3072x3072 RGBA
+tab_05.png: 3072x2178 RGBA
+10655_2x.png: 3072x2954 RGBA
+10666_2x.png: 3072x2178 RGBA
+10665_2x.png: 3072x2566 RGBA
+tab_01.png: 1468x3072 RGBA
+10663_2x.png: 1468x3072 RGBA
+tab_03.png: 3072x2680 RGBA
+10659_2x.png: 1546x3072 RGBA
+10658_2x.png: 3072x3072 RGBA
+profile_01.png: 3072x2566 RGBA
+main_background.jpg: 1536x863 RGB
