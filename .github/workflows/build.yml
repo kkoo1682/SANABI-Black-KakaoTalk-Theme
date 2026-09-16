@@ -1,0 +1,33 @@
+name: SANABI 카카오톡 테마 빌드
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v6
+
+      - name: Java 설치
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Gradle 실행 권한
+        run: chmod +x ./gradlew
+
+      - name: 테마 빌드
+        run: ./gradlew assembleDebug
+
+      - name: APK 저장
+        uses: actions/upload-artifact@v4
+        with:
+          name: SANABI-Black-KakaoTalk-Theme
+          path: app/build/outputs/apk/debug/*.apk
