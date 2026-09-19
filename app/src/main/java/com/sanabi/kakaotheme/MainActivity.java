@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         TextView textView = new TextView(this);
+
         textView.setText("SANABI 블랙 테마");
         textView.setTextColor(Color.WHITE);
         textView.setBackgroundColor(Color.BLACK);
