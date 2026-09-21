@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="theme_name">SANABI 블랙</string>
-    <string name="theme_author">SANABI</string>
+    <string name="theme_title">SANABI 블랙</string>
+    <string name="app_name">SANABI 블랙</string>
 </resources>
