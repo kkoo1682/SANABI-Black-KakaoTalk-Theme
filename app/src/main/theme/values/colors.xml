@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thm_general_default_list_search_item_bg">#111111</color>
+    <color name="thm_general_searchbox_font_color">#FFFFFF</color>
+    <color name="default_list_background">#000000</color>
+    <color name="default_list_selected_background">#1A1A1A</color>
+    <color name="thm_general_default_list_item_title_font">#FFFFFF</color>
+    <color name="thm_general_default_list_section_header_font">#FFFFFF</color>
+    <color name="thm_friendlist_message_font">#AAAAAA</color>
+    <color name="tab_bg">#000000</color>
+    <color name="tab_bg_p">#1A1A1A</color>
+</resources>
